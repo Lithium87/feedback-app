@@ -10,7 +10,7 @@ const App = () => {
     <React.Fragment>
       <Header />
       <div className="container">
-        <FeedbackList feedback={feedback} />
+        <FeedbackList />
       </div>
     </React.Fragment>
   );

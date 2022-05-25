@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Header from './components/Header';
-import FeedbackList from './components/FeedbackList';
+import FeedbackItem from './components/FeedbackItem';
 import FeedbackData from './data/FeedbackData';
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
     <React.Fragment>
       <Header />
       <div className="container">
-        <FeedbackList feedback={feedback} />
+        <FeedbackItem />
       </div>
     </React.Fragment>
   );
